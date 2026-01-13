@@ -1,0 +1,17 @@
+{
+  "name": "MeteoStation",
+  "about": "Домашняя метеостанция",
+  "version": "v0.0.0",
+  "notes": "",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/bonavi/meteo-station/main/bin/firmware.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}

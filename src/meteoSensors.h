@@ -41,5 +41,5 @@ private:
     GyverBME280 _bme;
     GyverHTU21D _htu;
     uint32_t lastUpdate = 0;
-    static constexpr uint32_t MIN_INTERVAL = 200;
+    static constexpr uint32_t MIN_INTERVAL = 1000;
 };

@@ -1,0 +1,17 @@
+{
+  "name": "MeteoStation",
+  "about": "Домашняя метеостанция",
+  "version": "v0.0.0",
+  "notes": "",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        {
+          "path": "http://127.0.0.1:80/.pio/build/d1_mini/firmware.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}

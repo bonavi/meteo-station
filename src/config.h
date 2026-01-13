@@ -2,6 +2,10 @@
 
 #include <Arduino.h>
 
+#define VERSION "v0.0.0"
+#define PROJECT_NAME "MeteoStation"
+#define PROJECT_JSON_PATH "project_local.json"
+
 // Пины энкодера
 #if defined(ESP8266)
 #define PIN_ENCODER_A      14
