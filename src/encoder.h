@@ -1,6 +1,8 @@
 #pragma once
 #include <EncButton.h>
 
+#include "config.h"
+
 enum class EncoderEvent {
     NONE,
     LEFT,
@@ -10,7 +12,7 @@ enum class EncoderEvent {
 
 class EncoderClass {
 public:
-    EncoderClass() : _enc(3, 4, 2) {
+    EncoderClass() : _enc(PIN_ENCODER_A, PIN_ENCODER_B, PIN_ENCODER_BTN) {
     }
 
     EncoderEvent readState() {
